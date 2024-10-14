@@ -10,7 +10,7 @@ Create several animations using only HTML and CSS. No CSS frameworks or plugins 
 ##  👩🏾‍💻 you can refer this project: 🔗 https://assignment-04---css-animation.web.app
 
 
-### 🔍 Case Studies - 🔮 Animations
+## 🔍 About Animations
 
 #### **🎯 Case 1: Navigation Transition**
 - Create a smooth and stylish transition effect for a navigation menu.
