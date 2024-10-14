@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+div {
+  border-radius: 50%;
+  border: 3px solid rgb(255, 0, 43);
+  animation: blink 2s ease-in-out infinite;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes blink {
+  0% {
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+  100% {
+    width: 250px;
+    height: 250px;
+    opacity: 0;
+  }
+}

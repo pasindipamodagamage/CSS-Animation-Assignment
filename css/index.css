@@ -1,7 +1,8 @@
 body {
   margin: 0;
   background-color: black;
-  height: 99vh;
+  height: 100vh;
+  /* overflow: hidden; */
 }
 
 header img {
@@ -60,6 +61,11 @@ h1 {
 }
 
 .btn-set {
-  margin-top: 10px;
-  margin-bottom: 9px;
+  margin: 50px 150px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background: linear-gradient(to right, rgb(114, 183, 206), rgb(153, 63, 153));
+  transition: transform 6s ease-in;
 }
