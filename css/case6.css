@@ -59,12 +59,12 @@ body {
 
 .wheel1 {
   bottom: 0;
-  left: 36px;
+  left: 35px;
 }
 
 .wheel2 {
   bottom: 0;
-  right: 98px;
+  right: 93px;
 }
 
 @keyframes forward {

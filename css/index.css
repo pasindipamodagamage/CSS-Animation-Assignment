@@ -2,7 +2,6 @@ body {
   margin: 0;
   background-color: black;
   height: 100vh;
-  /* overflow: hidden; */
 }
 
 header img {
@@ -53,7 +52,6 @@ h1 {
   width: 300px;
   height: 100px;
   background: linear-gradient(to left, rgb(114, 183, 206), rgb(153, 63, 153));
-
   font-size: 2.5rem;
   text-shadow: 1px 1px 1px black;
   margin: 0px 5px 5px 5px;
@@ -62,10 +60,23 @@ h1 {
 
 .btn-set {
   margin: 50px 150px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .btn:hover {
   cursor: pointer;
-  background: linear-gradient(to right, rgb(114, 183, 206), rgb(153, 63, 153));
+  background: linear-gradient(to right, blue, aqua);
   transition: transform 6s ease-in;
+  font-size: 3.8rem;
+  border: 2px solid white;
+  width: 310px;
+  height: 110px;
+}
+
+@media screen and (min-width: 0) and (max-width: 575px) {
+  main {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+  }
 }
